@@ -1,0 +1,8 @@
+.container-fluid{
+    background-image: url("../../../assets/background.jpg")
+}
+h1{
+    color: white;
+    padding-top: 65px;
+    padding-left: 36%;
+}

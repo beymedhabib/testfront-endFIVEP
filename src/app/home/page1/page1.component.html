@@ -1,0 +1,27 @@
+<div class="container-fluid" >
+    <h1>My Address Book</h1>
+    <div class="contact">
+        <div class="cardg bg-grey text-white">
+            <div class="row">
+                <div class="form-group has-search">
+                    <span class="fa fa-search form-control-feedback"></span>
+                    <input type="text" [(ngModel)]='search' class="form-control" placeholder="Search">
+                </div>
+                <h2>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</h2>
+            </div>
+                  <div class="row row1"  >
+                      <div class="card col-md-3" *ngFor="let contact of (table | filter:search) ; let i =index" routerLink='contact/{{i}}'>
+                          <div class="row">
+                              <div class="col-md-2 profile" >
+                                  <img  src="../../../assets/profile.png" >
+                                </div>
+                                <div class="col-md-10 info">
+                                    <h5 class="text-uppercase text-secondary">{{contact.name}}</h5>
+                                    <h5 class="text-uppercase text-secondary">{{contact.phone}}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+  </div>

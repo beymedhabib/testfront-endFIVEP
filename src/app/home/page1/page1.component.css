@@ -1,0 +1,61 @@
+.container-fluid{
+    background-image: url("../../../assets/background.jpg");
+    height: 600px;
+}
+h1{
+    color: white;
+    padding-top: 65px;
+    padding-left: 36%;
+}
+.cardg{
+    background-color: grey;
+    /* height: 500px ; */
+    width: 1000px;
+    border-top: 4mm solid orangered;
+    
+}
+.contact{
+    padding-left: 172px;
+}
+.form-control {
+    padding-left: 2.375rem;
+}
+
+.form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.has-search{
+    padding-left: 200px;
+    width: 730px;
+}
+h2{
+    color: orangered;
+    padding-left: 125px;
+}
+.profile{
+    padding: 20px;
+}
+.card{
+    height: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.row{
+    display: flex;
+}
+.info{
+    padding: 20px;
+    padding-left: 70px;
+}
+.row1{
+    margin-right: 20px;
+    justify-content: center;
+}
